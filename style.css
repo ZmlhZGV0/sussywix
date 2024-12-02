@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+}
+
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #141517;
+    padding: 20px 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* main */
+
+
